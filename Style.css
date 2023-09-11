@@ -1,5 +1,25 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background: url();
+/* font awesome cdn link */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --main-color:#2980b;
+    --red:red;
+    --light-color:#777;
+    --light-bg:#eee;
+    --back:#2c3e50;
+    --white:#fff;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    -o-border:.1rem solid rgba(0,0,0,.2);
+
+}
+*{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
 }
