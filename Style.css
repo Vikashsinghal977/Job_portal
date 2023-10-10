@@ -159,7 +159,7 @@ section{
 .footer .grid .box a i{
     color: var(--main-color);
     margin-right: (--main-color);
-    transition: .2s linear;
+    transition: .2s linear  ;
 }
 
 .footer .grid .box a:hover i{
@@ -167,6 +167,20 @@ section{
 
 }
 
+.footer .credit{
+    text-align: center;
+    padding: 3rem 2rem;
+    border-top: var(--border);
+    background-color: var(--white);
+    font-size: 2rem;
+    color: var(--light-color);
+    line-height: 1.5;
+}
+
+.footer .credit span{
+    color: var(--main-color);
+    text-transform: capitalize;
+}
 
 
 
