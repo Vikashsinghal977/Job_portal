@@ -124,6 +124,10 @@ section{
     color: var(--white);
 }
 
+/* home job titl  */
+.home-contatiner{
+    background: url(Images/Background.jpg);
+}
 
 
 
