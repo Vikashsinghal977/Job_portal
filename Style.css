@@ -143,17 +143,29 @@ section{
 .footer .grid .box h3{
     font-size: 2rem;
     color: var(--black);
-    margin-bottom: 1rem;    
+    margin: 1rem 0;    
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+
 }
 
 .footer .grid .box a{
     display: block;
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--light-color);
 } 
 
+.footer .grid .box a i{
+    color: var(--main-color);
+    margin-right: (--main-color);
+    transition: .2s linear;
+}
 
+.footer .grid .box a:hover i{
+    margin-right: 2rem;
+
+}
 
 
 
