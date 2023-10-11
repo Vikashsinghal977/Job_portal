@@ -126,7 +126,48 @@ section{
 
 /* home job titl  */
 .home-contatiner{
-    background: url(Images/Background.jpg);
+    background: url(Images/Background.jpg), rgba(0, 0, 0, .7) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: color;
+}
+.home-contatiner .home{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-contatiner .home form{
+    background-color: var(--white);
+    width: 50rem;
+    border-radius: .5rem;
+    padding: 2rem;
+    text-align: center;
+}
+.home-contatiner .home form h3{
+    font-size: 2.5rem;
+    color: var(--black);
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.home-contatiner .home form p{
+    text-align: left;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    padding: 1rem;
+}
+.home-contatiner .home form p span{
+    color: var(--red);
+}
+.home-contatiner .home form .input{
+    width: 100%;
+    border-radius: 5rem;
+    margin: 1rem 0;
+    background-color: var(--light-bg);
+    padding: 1.4rem;
+    font-size: 1.5rem;
+    color: --l;
 }
 
 
