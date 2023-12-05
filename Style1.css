@@ -615,6 +615,16 @@ section{
         text-decoration: underline;
 }
 
+.alert{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    background: #79c879;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
+
 /* Account CSS Ended */
 
 
