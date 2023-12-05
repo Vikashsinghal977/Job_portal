@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style1.css">
 </head>
 <body>
     
@@ -43,11 +43,12 @@
 
     <section class="account-form">
     
-    <form action="" method="post">
+    <form action="" method="post" id="registerForm">
     <h3>welcome back!</h3>
-    <input type="email" required name="name" maxlength="50" placeholder="enter your email" class="input">
-    <input type="password" required name="pass" maxlength="20" placeholder="enter your password" class="input">
-    <input type="password" required name="c_pass" maxlength="20" placeholder="conform your password" class="input">
+    <div class="alert">successfully</div>
+    <input type="email" required id="name" maxlength="50" placeholder="enter your email" class="input">
+    <input type="password" required id="pass" maxlength="20" placeholder="enter your password" class="input">
+    <input type="password" required id="c_pass" maxlength="20" placeholder="conform your password" class="input">
     <p>You have an account ?<a href="login.html">Login In</a></p>
     <input type="submit" value="Register Now" name="submit" class="btn">
 </form>
@@ -101,9 +102,7 @@
     <div class="credit">&copy; copyright @2023 by <span>mr. Vikash Singhal</span> | all rights reserved!</div>
 </footer>
 
-
-    <script src="Script.js">
-
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="register.js"></script>
 </body>
 </html>
