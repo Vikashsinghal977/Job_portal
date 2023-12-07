@@ -23,15 +23,27 @@ function submitForm(e) {
   var pass = getInputVal("pass");
   var c_pass = getInputVal("c_pass");
 
-  saveMassage(name, pass, c_pass);
+  if (pass == c_pass){
+    saveMassage(name, pass, c_pass);
 
-  document.querySelector('.alert').style.display = "block";
+    document.querySelector('.alert').style.display = "block";
 
-  setTimeout(function() {
-    document.querySelector('.alert').style.display = "none";
-  },3000);
+    setTimeout(function() {
+      document.querySelector('.alert').style.display = "none";
+    },3000);
 
-  document.getElementById('registerForm').reset();
+    document.getElementById('registerForm').reset();
+  }
+  else{
+    document.querySelector('.alertrong').style.display = "block";
+
+    setTimeout(function() {
+      document.querySelector('.alert').style.display = "none";
+    },3000);
+
+    document.getElementById('registerForm').reset();
+  }
+  
 }
 
 function getInputVal(id) {

@@ -617,6 +617,15 @@ section{
     display: none;
 }
 
+.alertrong{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    background: #ad2b2b;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
 /* Account CSS Ended */
 
 
