@@ -38,7 +38,7 @@ function submitForm(e) {
     document.querySelector('.alertrong').style.display = "block";
 
     setTimeout(function() {
-      document.querySelector('.alert').style.display = "none";
+      document.querySelector('.alertrong').style.display = "none";
     },3000);
 
     document.getElementById('registerForm').reset();
