@@ -16,6 +16,10 @@ var messagesRef = firebase.database().ref('messages');
 
 document.getElementById("registerForm").addEventListener("submit", submitForm);
 
+document.getElementById("loginform").addEventListener("login", loginForm);
+
+
+
 function submitForm(e) {
   e.preventDefault();
 
@@ -59,4 +63,9 @@ function saveMassage(name, pass, c_pass){
     pass:pass,
     c_pass:c_pass
   })
+}
+
+
+function loginForm(){
+  
 }
